@@ -44,3 +44,16 @@ end
 Classes
 10.class /Interger = inteiro
 10.0.class /  Float = decimal
+
+
+```
+```
+No ruby também tem a conversão de classes
+tipo integer pra float usando to(classe)
+tipo a = 1
+interger = a.to_i // transforma a variável em um
+exemplo: a= "1.4"
+ b = "1.5"
+ c = a.to_f + b.to_f
+ print c 
+ ```
