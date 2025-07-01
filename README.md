@@ -57,3 +57,21 @@ exemplo: a= "1.4"
  c = a.to_f + b.to_f
  print c 
  ```
+
+
+
+```
+Exemplo de convite
+puts "Bem-vindo(a) festa!, por favor, responda as perguntas do nosso porteiro eletrônico. Diga sua idade"
+ puts " Diga sua idade"
+ idade = gets.chomp.to_i
+ 
+ puts "Tem convite? (sim ou não)"
+ convite = gets.chomp
+ if idade >= 18 && convite == "sim"
+      puts "Entrada permitida! Aproveite"
+  else
+      puts "ixi moiô
+      "
+     end
+```
