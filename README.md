@@ -75,3 +75,20 @@ puts "Bem-vindo(a) festa!, por favor, responda as perguntas do nosso porteiro el
       "
      end
 ```
+
+
+```
+While sintaxe
+senha = "345"
+tsenha = 0
+
+while tsenha != senha
+    puts "Digite sua senha"
+    tsenha = gets.chomp.to_s
+    if tsenha != senha
+        puts "Acesso negado"
+    end
+end
+
+puts "Acesso garantido"
+```
