@@ -136,3 +136,17 @@ puts "A tabuada deu #{resultado}"
 i += 1
 end
 ```
+
+
+```
+ARRAYYYYYY
+i  = 0
+nome_convidado =  []
+while i<3
+    puts "digite o nome de um convidado"
+    nome_convidado.push(gets.chomp)
+    i = i + 1
+end
+puts "Listaa"
+puts nome_convidado
+```
