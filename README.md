@@ -109,3 +109,16 @@ else
     puts "Esse número gera loop"
 end
 ```
+
+```
+puts "Digite um número limite para a tabuada:"
+n = gets.chomp.to_i
+i = 1
+
+while i <= 10
+
+resultado = n * i
+puts "A tabuada deu #{resultado}"
+i += 1
+end
+```
