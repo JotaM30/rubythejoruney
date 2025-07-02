@@ -92,3 +92,20 @@ end
 
 puts "Acesso garantido"
 ```
+
+
+
+
+```
+puts "Digite um número"
+i = gets.chomp.to_i
+
+if i >= 0
+    while i > 0
+    i = i - 1
+    puts i
+end
+else
+    puts "Esse número gera loop"
+end
+```
