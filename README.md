@@ -178,4 +178,10 @@ pessoa = {
 puts pessoa[:nome]   # Saída: Alisson
 puts carro["modelo"] # Saída: Corolla
 }
+
+USANDO EACH
+pessoa = { nome:"Almeida", idade: 27, cidade: "Recife"}
+pessoa.each do |chave, valor|
+    puts "#{chave}: #{valor}"
+end
 ```
