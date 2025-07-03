@@ -4,7 +4,7 @@ a jornada daquele rubi la
 
 
 
-```
+```rb
 #Operação Normal
 nice = 17;
 flash = 15;
@@ -14,12 +14,12 @@ resultado = nice + flash;
 puts resultado
 ```
 
-```
-###Nil
+```rb
+#Nil
 _*Nil representa o nada absoluto*_
 ```
-```
-###Operadores
+```rb
+# Operadores
 5+5 // 10
 5-5 // 0
 5*5 // 25
@@ -28,8 +28,8 @@ _*Nil representa o nada absoluto*_
 ```
 
 
-```
-###Sintaxe If Else
+```rb
+# Sintaxe If Else
 puts "Digite:"
 a = gets.chomp
 if a == "Ney"
@@ -40,14 +40,15 @@ end
 ```
 
 
-```
-Classes
+```rb
+# Classes
 10.class /Interger = inteiro
 10.0.class /  Float = decimal
 
 
 ```
-```
+```rb
+# Conversão de classes
 No ruby também tem a conversão de classes
 tipo integer pra float usando to(classe)
 tipo a = 1
@@ -60,8 +61,8 @@ exemplo: a= "1.4"
 
 
 
-```
-Exemplo de convite
+```rb
+# Exemplo de convite
 puts "Bem-vindo(a) festa!, por favor, responda as perguntas do nosso porteiro eletrônico. Diga sua idade"
  puts " Diga sua idade"
  idade = gets.chomp.to_i
@@ -77,8 +78,8 @@ puts "Bem-vindo(a) festa!, por favor, responda as perguntas do nosso porteiro el
 ```
 
 
-```
-While sintaxe
+```rb
+# While sintaxe
 senha = "345"
 tsenha = 0
 
@@ -138,8 +139,8 @@ end
 ```
 
 
-```
-ARRAYYYYYY
+```rb
+# ARRAYYYYYY
 i  = 0
 nome_convidado =  []
 while i<3
@@ -150,8 +151,8 @@ end
 puts "Listaa"
 puts nome_convidado
 ```
-```
-Interações de array 
+```rb
+# Interações de array 
 Clientes = ["Alisson", "Cássio", "Leonardo"]
 Clientes.push "Mauricio"
 Clientes.shift "Alisson"
@@ -168,3 +169,4 @@ Ambos retornam o elemento removido.
 
 ```
 
+# HASH
