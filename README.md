@@ -185,3 +185,24 @@ pessoa.each do |chave, valor|
     puts "#{chave}: #{valor}"
 end
 ```
+```rb
+# Exemplo de each e each dentro do each
+produto = { nome: "Controle LG", preco: 185 , cor: " preto"}
+
+    puts "Veja as informações do produto: "
+    produto.each do |chave, valor|
+        
+    puts "#{chave}: #{valor}"
+end
+
+
+
+
+Livros = [{Título: "Pequeno Príncipe", Autor: "The Rock", Preço: 70 }, {Título: "Diário de um banana", Autor: "Maurício Pantera", Preço: 65  }, {Título: "A arte de meter o fodase", Autor: "Big pedro", Preço: 85  }]
+Livros.each do  |valor|
+    valor.each do |chave, propriedade|
+    
+    puts " #{chave}: #{propriedade}"
+    end    
+end
+```
