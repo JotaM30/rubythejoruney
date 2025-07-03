@@ -1,6 +1,6 @@
 # rubythejourney
 a jornada daquele rubi la
-
+<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaG12Mzl6a3Fib3Rnbnc0Z3cwYTBoNngzYTByeW52MjVjNW9ieTdkYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/j5DBja43qtLDH8Np1m/giphy.gif" >
 
 
 
@@ -165,8 +165,17 @@ Use `push` ou `<<` para adicionar no final do array (ex: `array.push("nova_coisa
 Ambos retornam o elemento removido.
 Útil para manter arrays dinâmicos.
 
-
-
 ```
 
+```rb
+
 # HASH
+ Sintaxe moderna (preferencial para chaves de símbolo)
+pessoa = {
+  nome: "Alisson",
+  idade: 30,
+  cidade: "Recife"
+puts pessoa[:nome]   # Saída: Alisson
+puts carro["modelo"] # Saída: Corolla
+}
+```
