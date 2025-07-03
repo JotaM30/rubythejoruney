@@ -1,4 +1,4 @@
-# rubythejoruney
+# rubythejourney
 a jornada daquele rubi la
 
 
