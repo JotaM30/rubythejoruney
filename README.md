@@ -150,3 +150,21 @@ end
 puts "Listaa"
 puts nome_convidado
 ```
+```
+Interações de array 
+Clientes = ["Alisson", "Cássio", "Leonardo"]
+Clientes.push "Mauricio"
+Clientes.shift "Alisson"
+puts Clientes.inspect
+
+
+Use `push` ou `<<` para adicionar no final do array (ex: `array.push("nova_coisa")`).
+`pop`: Remove o último item do array (como tirar o último livro de uma pilha).
+`shift`: Remove o primeiro item do array (como tirar o primeiro da fila).
+Ambos retornam o elemento removido.
+Útil para manter arrays dinâmicos.
+
+
+
+```
+
