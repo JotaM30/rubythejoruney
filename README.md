@@ -206,3 +206,20 @@ Livros.each do  |valor|
     end    
 end
 ```
+
+
+
+```rb
+Criação de Objeto
+
+class Gato
+end
+    
+class Cachorro
+end
+    
+Frajola = Gato.new
+CoronelRuffs = Cachorro.new
+
+puts Frajola == CoronelRuffs
+```
